@@ -1,0 +1,8 @@
+﻿테이블ID,원본상대경로,시트명,행수,컬럼수,비교범위,버전혼재,버전컬럼
+T001,고객.csv,CSV,40,7,.,False,[]
+T002,매장.csv,CSV,6,7,.,False,[]
+T003,배송.csv,CSV,45,7,.,False,[]
+T004,상품.csv,CSV,24,10,.,False,[]
+T005,주문.csv,CSV,60,10,.,False,[]
+T006,주문상세.csv,CSV,120,7,.,False,[]
+T007,직원.csv,CSV,18,7,.,False,[]

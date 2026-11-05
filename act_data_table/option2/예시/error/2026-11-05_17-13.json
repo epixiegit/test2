@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2026-11-05",
+    "timestamp": "2026-11-05T17:13:10.757+09:00",
+    "stage": "dependency_setup",
+    "parameters": {
+      "option": "1",
+      "chart_engine": "Plotly HTML",
+      "python_executable": "C:\\Users\\samsung\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+      "python_version": "3.13.12 (tags/v3.13.12:1cbe481, Feb  3 2026, 18:22:25) [MSC v.1944 64 bit (AMD64)]"
+    },
+    "error": {
+      "type": "ModuleNotFoundError",
+      "message": "No module named 'plotly'",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\samsung\\Desktop\\클로드용\\회사\\AI해커톤\\1.준비메인\\CLD_2차예선_최신버전\\git_folder\\act_data_table\\option2\\analyze_tables.py\", line 848, in main\n    configure_chart_backend(chart_option)\n    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\samsung\\Desktop\\클로드용\\회사\\AI해커톤\\1.준비메인\\CLD_2차예선_최신버전\\git_folder\\act_data_table\\option2\\analyze_tables.py\", line 174, in configure_chart_backend\n    import plotly.graph_objects as go\nModuleNotFoundError: No module named 'plotly'\n"
+    }
+  }
+]
