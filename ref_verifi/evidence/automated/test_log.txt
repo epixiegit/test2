@@ -1,0 +1,37 @@
+﻿test_adding_approved_request_changes_total_by_its_amount (test_analysis.AnalysisTests.test_adding_approved_request_changes_total_by_its_amount) ... ok
+test_blank_department_is_rejected (test_analysis.AnalysisTests.test_blank_department_is_rejected) ... ok
+test_cancelled_amount_does_not_change_result (test_analysis.AnalysisTests.test_cancelled_amount_does_not_change_result) ... ok
+test_duplicate_identifier_is_rejected (test_analysis.AnalysisTests.test_duplicate_identifier_is_rejected) ... ok
+test_empty_input (test_analysis.AnalysisTests.test_empty_input) ... ok
+test_fixture_has_six_unique_requests (test_analysis.AnalysisTests.test_fixture_has_six_unique_requests) ... ok
+test_identifier_leading_zero_is_preserved (test_analysis.AnalysisTests.test_identifier_leading_zero_is_preserved) ... ok
+test_input_is_not_modified (test_analysis.AnalysisTests.test_input_is_not_modified) ... ok
+test_invalid_amounts_are_rejected (test_analysis.AnalysisTests.test_invalid_amounts_are_rejected) ... ok
+test_missing_required_column_is_rejected (test_analysis.AnalysisTests.test_missing_required_column_is_rejected) ... ok
+test_order_does_not_change_result (test_analysis.AnalysisTests.test_order_does_not_change_result) ... ok
+test_quality_filter (test_analysis.AnalysisTests.test_quality_filter) ... ok
+test_result_matches_hand_calculated_answer (test_analysis.AnalysisTests.test_result_matches_hand_calculated_answer) ... ok
+test_unknown_department_is_empty (test_analysis.AnalysisTests.test_unknown_department_is_empty) ... ok
+test_unknown_status_is_rejected (test_analysis.AnalysisTests.test_unknown_status_is_rejected) ... ok
+test_zero_amount_is_valid_and_counted (test_analysis.AnalysisTests.test_zero_amount_is_valid_and_counted) ... ok
+test_bad_query (test_api.ApiTests.test_bad_query) ... ok
+test_csv_empty_result_keeps_headers (test_api.ApiTests.test_csv_empty_result_keeps_headers) ... ok
+test_csv_has_bom_and_correct_values (test_api.ApiTests.test_csv_has_bom_and_correct_values) ... ok
+test_csv_uses_selected_filter (test_api.ApiTests.test_csv_uses_selected_filter) ... ok
+test_health (test_api.ApiTests.test_health) ... ok
+test_home_html_is_served (test_api.ApiTests.test_home_html_is_served) ... ok
+test_missing_route (test_api.ApiTests.test_missing_route) ... ok
+test_preview_broken_json_is_400 (test_api.ApiTests.test_preview_broken_json_is_400) ... ok
+test_preview_invalid_data_is_422 (test_api.ApiTests.test_preview_invalid_data_is_422) ... ok
+test_preview_missing_rows_is_422 (test_api.ApiTests.test_preview_missing_rows_is_422) ... ok
+test_preview_valid_input (test_api.ApiTests.test_preview_valid_input) ... ok
+test_preview_wrong_content_type_is_415 (test_api.ApiTests.test_preview_wrong_content_type_is_415) ... ok
+test_quality_filter (test_api.ApiTests.test_quality_filter) ... ok
+test_total_is_correct_not_just_http_200 (test_api.ApiTests.test_total_is_correct_not_just_http_200) ... ok
+test_unknown_department_returns_empty_data (test_api.ApiTests.test_unknown_department_returns_empty_data) ... ok
+test_wrong_method (test_api.ApiTests.test_wrong_method) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.614s
+
+OK

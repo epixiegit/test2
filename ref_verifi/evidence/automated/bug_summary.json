@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-11-05T08:58:01.210768+00:00",
+  "finished_utc": "2026-11-05T08:58:01.245082+00:00",
+  "python": "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1104-709-0_26.1104.709.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "group": "intentional_bug",
+  "status": "FAIL",
+  "tests_run": 1,
+  "failures": 1,
+  "errors": 0,
+  "skipped": 0,
+  "browser_tested": false,
+  "tests": [
+    {
+      "test": "bug_demo.CancelledAmountBug.test_cancelled_request_must_be_excluded",
+      "status": "FAIL",
+      "detail": "Traceback (most recent call last):\n  File \"C:\\Users\\samsung\\Desktop\\클로드용\\회사\\AI해커톤\\1.준비메인\\CLD_2차예선_최신버전\\git_folder\\ref_verifi\\demo\\bug_demo.py\", line 13, in test_cancelled_request_must_be_excluded\n    self.assertEqual(buggy_total(load_rows()), 35000,\nAssertionError: 44000 != 35000 : 취소된 9,000원을 포함해 44,000원이 나옵니다. 기대값 35,000원을 바꾸지 말고 필터를 확인하세요.\n"
+    }
+  ]
+}

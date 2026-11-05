@@ -1,0 +1,10 @@
+{
+  "department_filter": null,
+  "record_count": 5,
+  "total_amount": 35000,
+  "by_department": [
+    {"department": "생산", "count": 2, "amount": 20000},
+    {"department": "영업", "count": 2, "amount": 10000},
+    {"department": "품질", "count": 1, "amount": 5000}
+  ]
+}

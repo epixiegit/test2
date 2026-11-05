@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": [
+    "전체 5건 35000원 3부서",
+    "조회 지연 중 이전값 제거 및 다운로드 비활성",
+    "품질 필터 1건 5000원",
+    "품질 CSV 실제 다운로드 저장",
+    "없는부서 0건 0원 빈결과 안내",
+    "네트워크 차단 오류 안내 및 이전값 제거",
+    "네트워크 복구 후 재조회 성공",
+    "새로고침 후 기본 전체 결과",
+    "390px 화면 가로 넘침 없음"
+  ],
+  "unhandledJsErrors": [],
+  "errorSimulation": "Playwright route.abort; server remained running",
+  "browser": "Playwright browser",
+  "baseUrl": "http://127.0.0.1:6027/"
+}

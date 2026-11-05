@@ -1,0 +1,7 @@
+﻿request_id,department,amount,status
+R001,생산,12000,approved
+R002,생산,8000,approved
+R003,품질,5000,approved
+R004,품질,9000,cancelled
+R005,영업,7000,approved
+R006,영업,3000,approved

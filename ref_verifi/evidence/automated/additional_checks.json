@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "check": "zero_tests",
+      "status": "PASS",
+      "observed_exit_code": 2
+    },
+    {
+      "check": "skipped_test",
+      "status": "PASS",
+      "observed_exit_code": 2
+    },
+    {
+      "check": "browser_download_csv",
+      "status": "PASS",
+      "rows": [
+        [
+          "department",
+          "count",
+          "amount"
+        ],
+        [
+          "품질",
+          "1",
+          "5000"
+        ]
+      ],
+      "encoding": "UTF-8 BOM"
+    },
+    {
+      "check": "python_syntax_and_bat_ascii_crlf",
+      "status": "PASS"
+    }
+  ]
+}
